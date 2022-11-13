@@ -1,0 +1,9 @@
+.Container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(380px, 400px));
+    padding: 1em;
+    justify-content: center;
+    margin-top: 3em;
+    row-gap: 1.3em;
+    background: linear-gradient(90deg, rgba(207,214,230,1) 0%, rgba(231,239,249,1) 100%);
+}

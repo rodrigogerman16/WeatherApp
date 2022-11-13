@@ -1,0 +1,29 @@
+.Container{
+    display: flex;    
+    justify-content: space-between;
+    padding: 0 2em;
+    background-color: #414141;
+}
+
+.Container div h3{
+    margin-bottom: 0px;
+    color: white;
+    font-size: 1rem;
+    text-decoration: underline 0.10em rgba(0, 0, 0, 0);
+    transition: text-decoration-color 300ms;
+}
+
+.Container div h3:hover{
+    text-decoration-color: rgb(255, 255, 255);
+}
+
+.Container div a{
+    color: transparent;
+}
+
+.Container div:first-child{
+    display: flex;
+    align-items: center;
+    gap: 2em;
+}
+

@@ -1,0 +1,74 @@
+.Box{
+    border: solid 1px black;
+    padding: 15px;
+    width: 380px;
+    height: 500px;
+    max-width: 400px;
+    margin: auto;
+    border-radius: 10px;
+    background-image: url(../img/Sky2.png);
+    background-size: cover;
+}
+
+.Box:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    transform: scale(1.01);
+}
+
+.BtnBox{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.Btn{
+    background-color: #847575;
+    border-style: hidden;
+    border-radius: 50%;
+    height: 25px;
+    width: 25px;
+    color:white;
+}
+
+.Btn:hover {
+    background-color: white; 
+    color: black;
+}
+
+.TemperatureInfo {
+    padding: 4em 0em 0em;
+}
+
+.Temperature h4{    
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.Name h1{
+    margin-top: 1em;
+    font-size: 48px;
+    font-variant: all-petite-caps;
+    color: black;
+}
+
+.Name h1:hover{
+    -webkit-text-stroke: 0.2px #fff;
+}
+
+.Name a{
+    color: transparent;
+}
+
+.Img{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 4em;
+}
+
+.Img h4{
+    margin: auto;
+    font-weight: bold;
+}
+.Img img{
+    width: fit-content;
+}

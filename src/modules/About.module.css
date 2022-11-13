@@ -1,0 +1,32 @@
+.AboutContainer{
+    border: 2px solid black;
+    border-radius: 4px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: auto;
+    margin-top: 3em;
+    max-width: 880px;
+}
+
+.DescriptionContainer{
+    text-align: center;
+    align-self: center;
+    padding: 3em 3em 1em 3em;
+}
+
+
+.ImgContainer img{
+    max-width: 438px;
+    height: 100%;
+}
+
+.ContactContainer{
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+    margin: auto;
+}
+
+.ContactContainer a{
+    color: black;
+}
