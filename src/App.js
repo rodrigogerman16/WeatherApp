@@ -2,10 +2,9 @@ import React, {useState} from 'react';
 import './App.css';
 import Nav from './components/Nav.jsx';
 import Cards from './components/Cards.jsx';
-import {Route, Switch} from 'react-router-dom';
+import {Route} from 'react-router-dom';
 import City from './components/City';
 import About from './components/About';
-import NotFound from './components/NotFound';
 
 function App() {
   const [cities, setCities] = useState([]); 
@@ -32,7 +31,7 @@ function App() {
       };
       setCities(oldCities => [...oldCities, ciudad]);
     } else {
-      alert("Ciudad no encontrada");
+      alert("City not found");
     }
   });
 }
@@ -44,25 +43,24 @@ function onClose(id) {
 
   return (
     <div className="App">  
-        <Switch>  
-
-          <Route exact path="/">                  
+          <Route path="/">                
             <Nav onSearch={onSearch}/>
+          </Route>
+
+          <Route exact path="/">         
             <Cards cities={cities} onClose={onClose}/>
           </Route>
 
-          <Route path="/about">          
-            <Nav onSearch={onSearch}/>
+          <Route path="/about">        
             <About/>
           </Route>
 
-          <Route exact path='/city/:cityId' render={
+          <Route exact path='/city/:cityId' render=          
+          {
             ({match}) => 
             <City city={cities.filter((ciudad) => ciudad.id === parseInt(match.params.cityId))[0]}/>
-          }/>   
-
-          <Route path="*" component={NotFound} />   
-        </Switch>
+          }
+          />   
     </div>
   );
 }

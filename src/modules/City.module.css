@@ -1,0 +1,14 @@
+.CityContainer{
+    padding: 2em 3em 3em 3em;
+    margin: auto;
+    border: 2px solid black;
+    width: fit-content;
+    margin-top: 3em;
+    text-align: left;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    border-radius: 6px;
+}
+
+.CityDescription{
+    margin-top: 1em;
+}
