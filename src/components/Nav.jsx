@@ -8,7 +8,7 @@ function Nav(props){
         <div className={style.Container}>
             <div>
                 <Link to="/">                             
-                    <h3>Weather App</h3>
+                    <h3>Home</h3>
                 </Link>
                 <Link to="/about" >
                     <h3>About</h3>
