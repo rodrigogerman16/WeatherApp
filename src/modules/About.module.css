@@ -6,6 +6,7 @@
     margin: auto;
     margin-top: 3em;
     max-width: 880px;
+    background: linear-gradient(90deg, rgba(207,214,230,1) 0%, rgba(231,239,249,1) 100%);
 }
 
 .DescriptionContainer{
@@ -17,7 +18,7 @@
 
 .ImgContainer img{
     max-width: 438px;
-    height: 100%;
+    height: 100%;    
 }
 
 .ContactContainer{
@@ -29,4 +30,23 @@
 
 .ContactContainer a{
     color: black;
+}
+
+@media (max-width: 900px) {
+    .AboutContainer{
+        display: flex;
+        flex-direction: column;
+        border: none;    
+        margin-top: 1em;    
+    }
+
+    .ImgContainer img{
+        border-radius: 50%;
+        width: -webkit-fill-available;
+        min-width: 200px;
+        margin: 0 1em;
+    }
+    .DescriptionContainer{
+        padding: 1em;
+    }
 }
