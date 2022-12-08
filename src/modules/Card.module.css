@@ -6,7 +6,7 @@
     max-width: 400px;
     margin: auto;
     border-radius: 10px;
-    background-image: url(../img/Sky2.png);
+    background-image: url(../img/descarga.png);
     background-size: cover;
 }
 
@@ -71,4 +71,10 @@
 }
 .Img img{
     width: fit-content;
+}
+
+@media (max-width: 400px){
+    .Box{
+        width: 300px;
+    }
 }
