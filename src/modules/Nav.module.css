@@ -24,6 +24,11 @@
 .Container div:first-child{
     display: flex;
     align-items: center;
-    gap: 2em;
+    gap: 1em;
 }
 
+@media (max-width: 450px) {
+    .Container{
+        padding: 0 1em;
+    }    
+}
