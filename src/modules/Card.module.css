@@ -1,13 +1,72 @@
 .Box{
     border: solid 1px black;
-    padding: 15px;
     width: 380px;
-    height: 500px;
     max-width: 400px;
     margin: auto;
     border-radius: 10px;
-    background-image: url(../img/descarga.png);
+    color: black;
+    height: 100%;
+}
+
+.Background01n, .Background01d{
+    background-image: url(../img/clearsky.png);
     background-size: cover;
+    border-radius: 8px;
+    height: 100%;
+}
+.Background02n, .Background02d{
+    background-image: url(../img/fewclouds.png);
+    background-size: cover;
+    border-radius: 8px;
+    height: 100%;
+}
+.Background03n, .Background03d{
+    background-image: url(../img/scatteredclouds.png);
+    background-size: cover;
+    border-radius: 8px;
+    height: 100%;
+}
+.Background04n, .Background04d{
+    background-image: url(../img/brokenclouds.png);
+    background-size: cover;
+    border-radius: 8px;
+    height: 100%;
+}
+.Background09n, .Background09d{
+    background-image: url(../img/showerrain.png);
+    background-size: cover;
+    border-radius: 8px;
+    height: 100%;
+}
+.Background10n, .Background10d{
+    background-image: url(../img/rain.png);
+    background-size: cover;
+    border-radius: 8px;
+    height: 100%;
+}
+.Background11n, .Background11d{
+    background-image: url(../img/thunderstorm.png);
+    background-size: cover;
+    border-radius: 8px;
+    height: 100%;
+}
+.Background13n, .Background13d{
+    background-image: url(../img/snow.png);
+    background-size: cover;
+    border-radius: 8px;
+    height: 100%;
+}
+.Background50n, .Background50d{
+    background-image: url(../img/mist.png);
+    background-size: cover;
+    border-radius: 8px;
+    height: 100%;
+}
+
+.Clear{
+    background-image: url(../img/clearsky.png);
+    background-size: cover;
+    border-radius: 8px;
 }
 
 .Box:hover{
@@ -68,6 +127,7 @@
 .Img h4{
     margin: auto;
     font-weight: bold;
+    font-size: 2em;
 }
 .Img img{
     width: fit-content;
