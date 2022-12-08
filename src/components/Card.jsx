@@ -6,7 +6,6 @@ import { Link } from 'react-router-dom';
 
 export default function Card({temp, weather, name, onClose, img, id}) {
   return (
-
   <div className={card.Box}>    
     <div className={card.BtnBox}>
       <button className={card.Btn} onClick={() => onClose(id)}>X</button>
@@ -26,6 +25,5 @@ export default function Card({temp, weather, name, onClose, img, id}) {
       </div>
     </div>
   </div>
-  
   )
 };

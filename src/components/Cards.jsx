@@ -9,7 +9,7 @@ export default function Cards({cities, onClose}) {
         (
         <Card
           temp={ciudad.temp}
-          weather={ciudad.weather}
+          weather={ciudad.weather}          
           name={ciudad.name}
           img={`http://openweathermap.org/img/wn/${ciudad.img}@2x.png`}
           onClose={onClose}

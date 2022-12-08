@@ -21,7 +21,7 @@
 }
 
 .Btn{
-    background-color: #847575;
+    background-color: transparent;
     border-style: hidden;
     border-radius: 50%;
     height: 25px;
@@ -30,7 +30,7 @@
 }
 
 .Btn:hover {
-    background-color: white; 
+    background-color: rgba(231,239,249,1); 
     color: black;
 }
 
